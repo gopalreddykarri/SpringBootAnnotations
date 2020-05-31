@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(path = "/job")
+@RequestMapping(path = "/v1/job")
 public class JobController {
 
     @GetMapping(path = "/details/{name}", produces = MediaType.APPLICATION_JSON_VALUE)
